@@ -1,1 +1,32 @@
-Hello from server3
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Server 3 Terminal</title>
+  <style>
+    body {
+      background: black;
+      color: #00ff00;
+      font-family: "Courier New", monospace;
+      padding: 2em;
+    }
+    .cursor {
+      display: inline-block;
+      width: 10px;
+      height: 20px;
+      background: #00ff00;
+      animation: blink 0.8s infinite;
+    }
+    @keyframes blink {
+      50% { opacity: 0; }
+    }
+  </style>
+</head>
+<body>
+  <h2>Server 3 Console</h2>
+  <p>> Booting system...</p>
+  <p>> Connection established.</p>
+  <p>> Welcome, user_01 <span class="cursor"></span></p>
+</body>
+</html>
+

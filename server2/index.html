@@ -1,1 +1,41 @@
-Hello from server2
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Server 2 Dashboard</title>
+  <style>
+    body {
+      background: #1e1e1e;
+      color: #fff;
+      font-family: monospace;
+      text-align: center;
+      padding: 5em;
+    }
+    .light {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      margin: 5px;
+      animation: blink 1.5s infinite;
+    }
+    .light:nth-child(1) { background: #0f0; animation-delay: 0s; }
+    .light:nth-child(2) { background: #ff0; animation-delay: 0.5s; }
+    .light:nth-child(3) { background: #f00; animation-delay: 1s; }
+
+    @keyframes blink {
+      50% { opacity: 0.2; }
+    }
+  </style>
+</head>
+<body>
+  <h1>💡 Server 2 Status</h1>
+  <div>
+    <div class="light"></div>
+    <div class="light"></div>
+    <div class="light"></div>
+  </div>
+  <p>All systems nominal 🚀</p>
+</body>
+</html>
+
